@@ -35,7 +35,9 @@ This repository is the canonical source for the Agentic Commons Grant (ACG) prot
 | First time hearing about Agentic Commons at all | [agentic-commons.org](https://agentic-commons.org) |
 | Understand what the protocol does and why | [`INTRODUCTION.md`](./INTRODUCTION.md) |
 | Implement an agent runtime that participates | `runtime-integration.md` (📦 forthcoming) |
-| Implement a verifier that checks marker validity | `verification.md` (📦 forthcoming) |
+| Implement a verifier that checks marker validity | [`verification.md`](./verification.md) |
+| Embed a marker in upstream content | [`marker-spec.md`](./marker-spec.md) |
+| Mint or parse an AC identifier | [`identifier-spec.md`](./identifier-spec.md) |
 | Propose a change | [Discussions, RFC category](https://github.com/agentic-commons-foundation/spec/discussions/categories/rfc) and [`CONTRIBUTING.md` §3](https://github.com/agentic-commons-foundation/.github/blob/main/CONTRIBUTING.md#3-path-3--protocol-contributions-stub) |
 
 ## What's in this repo
@@ -43,9 +45,9 @@ This repository is the canonical source for the Agentic Commons Grant (ACG) prot
 | File / directory | Status | Purpose |
 |------------------|--------|---------|
 | [`INTRODUCTION.md`](./INTRODUCTION.md) | ✅ DRAFT | Plain-language introduction for first-time readers |
-| `marker-spec.md` | 📦 forthcoming | The `[ACG #id]` marker syntax for commit footers, PR comments, edit summaries |
-| `identifier-spec.md` | 📦 forthcoming | `ac:t:ULID` and `AC-T-XXXXXXX` identifier rules |
-| `verification.md` | 📦 forthcoming | How a third party verifies a marker against the registry |
+| [`marker-spec.md`](./marker-spec.md) | ✅ DRAFT (v0.1) | The `[ACG #id]` marker syntax for commit footers, PR comments, edit summaries |
+| [`identifier-spec.md`](./identifier-spec.md) | ✅ DRAFT (v0.1) | `ac:t:ULID` and `AC-T-XXXXXXX` identifier rules |
+| [`verification.md`](./verification.md) | ✅ DRAFT (v0.1) | How a third party verifies a marker against the registry |
 | `runtime-integration.md` | 📦 forthcoming | What an agent runtime needs to implement to participate |
 | `governance.md` | 📦 forthcoming (after the spec stabilizes at 1.0) | Spec-level governance — decision-making for the spec itself; this is separate from project-wide governance, which lives in [`@agentic-commons-foundation/governance`](https://github.com/agentic-commons-foundation/governance) |
 
